@@ -1,0 +1,55 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 200px 150px;
+}
+
+nav,
+.logo {
+  position: relative;
+  height: 30px;
+  transition: 0.5s;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+}
+
+nav ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s;
+  letter-spacing: 2px;
+  background-color: #fff;
+}
+
+a: hover {
+  color: red;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .main-page {
+  padding-top: 60px;
+}
