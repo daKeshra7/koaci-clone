@@ -29,7 +29,6 @@ function App() {
     <div>
       <Navbar sticky={isSticky} />
       <Main element={element} />
-
       <New />
     </div>
   );

@@ -8,31 +8,31 @@ export const MenuItems = [
   {
     title: "A LA UNE",
     url: "#",
-    cName: "navbar-links ",
+    cName: "navbar--link-item ",
   },
 
   {
     title: "COTE D'IVOIRE",
     url: "#",
-    cName: "navbar-links",
+    cName: "navbar--link-item",
   },
 
   {
     title: "AFRIQUE",
     url: "#",
-    cName: "navbar-links",
+    cName: "navbar--link-item",
   },
 
   {
     title: "POLITIQUE",
     url: "#",
-    cName: "navbar-links",
+    cName: "navbar--link-item",
   },
 
   {
     title: "COMMUNIQUÉS",
     url: "#",
-    cName: "navbar-links",
+    cName: "navbar--link-item",
   },
 
   {
